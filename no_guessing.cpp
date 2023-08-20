@@ -1,6 +1,10 @@
 #include<iostream>
 #include<time.h>
 using namespace std;
+//This is a number guessing game this program generates the random number
+//and asks the user to guess the number by taking the no
+// if guessed correct it appreciates or else gives feed back
+
 class NoGuess
 {
   private: int genno,atmpts=0;
